@@ -33,10 +33,11 @@ The dataset contains information about sales transactions and includes the follo
 
 ## Questions Answered  
 The analysis answers some insightful questions, such as:
-- What are the total sales per region?  
-- Which category and sub-category have the highest revenue?  
-- What are the top-selling products?  
-- How do sales trends vary over time?
+- Find top 10 highest reveue generating products!
+- Find top 5 highest selling products in each region!
+- Find month over month growth comparison for 2022 and 2023 sales eg : jan 2022 vs jan 2023!
+- For each category which month had highest sales!
+- which sub category had highest growth by profit in 2023 compare to 2022
 
 ---
 
@@ -53,6 +54,4 @@ The analysis answers some insightful questions, such as:
 ### Prerequisites:
 - Install Python (3.x recommended).  
 - Set up SQL Server and configure a database.  
-- Install the required Python libraries using the following command:
-  ```bash
-  pip install pandas numpy sqlalchemy kaggle
+  
